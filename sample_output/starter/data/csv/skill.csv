@@ -1,0 +1,14 @@
+skill_id,skill_code,skill_name,category,requires_certification,certification_validity_days
+SKL-001,FIRST_AID,First Aid Responder,SAFETY,true,365
+SKL-002,FORKLIFT,Forklift Operation,OPERATIONAL,true,730
+SKL-003,RECEIVING,Receiving & Put-away,OPERATIONAL,false,
+SKL-004,HAZMAT,Hazardous Goods Handling,SAFETY,true,365
+SKL-005,PICK_PACK,Picking & Packing,OPERATIONAL,false,
+SKL-006,DISPATCH,Dispatch Coordination,OPERATIONAL,false,
+SKL-007,CYCLE_COUNT,Cycle Counting,OPERATIONAL,false,
+SKL-008,WMS,Warehouse Management System,SYSTEMS,false,
+SKL-009,QUALITY,Quality Inspection,OPERATIONAL,false,
+SKL-010,RETURNS_GRADING,Returns Grading,OPERATIONAL,false,
+SKL-011,ESCALATIONS,Customer Escalations,CUSTOMER,false,
+SKL-012,MULTILINGUAL,Multilingual Support,CUSTOMER,false,
+SKL-013,TECH_TIER2,Tier-2 Technical Support,SYSTEMS,false,

@@ -1,0 +1,4 @@
+template_id,template_code,template_name,start_time,end_time,duration_hours,crosses_midnight,is_night
+TPL-A,A,Early,06:00,14:00,8.00,false,false
+TPL-B,B,Late,14:00,22:00,8.00,false,false
+TPL-C,C,Night,22:00,06:00,8.00,true,true

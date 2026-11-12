@@ -1,0 +1,51 @@
+team_id,shift_id,shift_date,template_id,day_type,requirement,required,planned,final,attended,final_gap,attended_gap,gap_stage,explanation
+TEAM-001,SHIFT-2026-01-06-B,2026-01-06,TPL-B,WEEKDAY,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-06-B,2026-01-06,TPL-B,WEEKDAY,SKL-003,2,2,2,1,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-06-B,2026-01-06,TPL-B,WEEKDAY,SKL-004,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-08-C,2026-01-08,TPL-C,WEEKDAY,SKL-001,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-001,SHIFT-2026-01-23-C,2026-01-23,TPL-C,WEEKDAY,TOTAL,2,2,2,0,0,2,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-23-C,2026-01-23,TPL-C,WEEKDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-23-C,2026-01-23,TPL-C,WEEKDAY,SKL-003,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-001,SHIFT-2026-01-27-A,2026-01-27,TPL-A,WEEKDAY,TOTAL,4,4,3,3,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-001,SHIFT-2026-01-27-A,2026-01-27,TPL-A,WEEKDAY,SKL-004,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-001,SHIFT-2026-01-28-A,2026-01-28,TPL-A,WEEKDAY,TOTAL,4,4,3,3,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-002,SHIFT-2026-01-07-B,2026-01-07,TPL-B,WEEKDAY,TOTAL,5,5,5,4,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-002,SHIFT-2026-01-13-A,2026-01-13,TPL-A,WEEKDAY,TOTAL,5,5,4,4,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-003,SHIFT-2026-01-02-A,2026-01-02,TPL-A,WEEKDAY,TOTAL,4,4,3,3,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-003,SHIFT-2026-01-05-A,2026-01-05,TPL-A,WEEKDAY,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-12-C,2026-01-12,TPL-C,WEEKDAY,TOTAL,2,2,2,1,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-12-C,2026-01-12,TPL-C,WEEKDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-12-C,2026-01-12,TPL-C,WEEKDAY,SKL-005,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-17-C,2026-01-17,TPL-C,WEEKEND,TOTAL,2,2,2,1,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-17-C,2026-01-17,TPL-C,WEEKEND,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-003,SHIFT-2026-01-20-A,2026-01-20,TPL-A,WEEKDAY,TOTAL,5,5,4,4,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-003,SHIFT-2026-01-20-A,2026-01-20,TPL-A,WEEKDAY,SKL-005,2,2,1,1,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-003,SHIFT-2026-01-21-A,2026-01-21,TPL-A,WEEKDAY,TOTAL,5,5,4,4,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-003,SHIFT-2026-01-22-A,2026-01-22,TPL-A,WEEKDAY,TOTAL,5,5,5,4,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-01-A,2026-01-01,TPL-A,WEEKDAY,TOTAL,5,5,5,4,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-04-A,2026-01-04,TPL-A,WEEKEND,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-07-B,2026-01-07,TPL-B,WEEKDAY,TOTAL,5,5,4,4,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-004,SHIFT-2026-01-08-A,2026-01-08,TPL-A,WEEKDAY,TOTAL,5,5,5,4,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-08-A,2026-01-08,TPL-A,WEEKDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-12-A,2026-01-12,TPL-A,WEEKDAY,TOTAL,5,5,5,4,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-12-A,2026-01-12,TPL-A,WEEKDAY,SKL-006,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-18-A,2026-01-18,TPL-A,WEEKEND,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-21-B,2026-01-21,TPL-B,WEEKDAY,TOTAL,6,6,6,5,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-21-B,2026-01-21,TPL-B,WEEKDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-22-A,2026-01-22,TPL-A,WEEKDAY,TOTAL,6,6,6,5,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-24-B,2026-01-24,TPL-B,WEEKEND,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-25-B,2026-01-25,TPL-B,WEEKEND,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-004,SHIFT-2026-01-25-B,2026-01-25,TPL-B,WEEKEND,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-005,SHIFT-2026-01-05-A,2026-01-05,TPL-A,WEEKDAY,SKL-009,1,0,0,0,1,1,PLANNING,Not enough eligible staff when the schedule was published and not recovered by top-ups.
+TEAM-005,SHIFT-2026-01-13-B,2026-01-13,TPL-B,WEEKDAY,SKL-001,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-005,SHIFT-2026-01-20-A,2026-01-20,TPL-A,WEEKDAY,SKL-001,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-005,SHIFT-2026-01-20-B,2026-01-20,TPL-B,WEEKDAY,SKL-009,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-005,SHIFT-2026-01-26-B,2026-01-26,TPL-B,HOLIDAY,TOTAL,2,2,2,1,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-005,SHIFT-2026-01-26-B,2026-01-26,TPL-B,HOLIDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-006,SHIFT-2026-01-02-A,2026-01-02,TPL-A,WEEKDAY,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-006,SHIFT-2026-01-02-A,2026-01-02,TPL-A,WEEKDAY,SKL-001,1,1,1,0,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-006,SHIFT-2026-01-08-B,2026-01-08,TPL-B,WEEKDAY,TOTAL,4,4,4,3,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).
+TEAM-006,SHIFT-2026-01-08-B,2026-01-08,TPL-B,WEEKDAY,SKL-001,1,0,0,0,1,1,PLANNING,Not enough eligible staff when the schedule was published and not recovered by top-ups.
+TEAM-006,SHIFT-2026-01-12-C,2026-01-12,TPL-C,WEEKDAY,TOTAL,2,2,1,1,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-006,SHIFT-2026-01-12-C,2026-01-12,TPL-C,WEEKDAY,SKL-001,1,1,0,0,1,1,POST_PUBLICATION,"Covered at publication; lost to late leave, a reassignment or a swap and not refilled."
+TEAM-006,SHIFT-2026-01-26-B,2026-01-26,TPL-B,HOLIDAY,TOTAL,3,3,3,2,0,1,ATTENDANCE,Schedule met the requirement but people did not clock in (no-show / on leave).

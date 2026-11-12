@@ -1,0 +1,31 @@
+{
+  "external_data_used": false,
+  "summary": "All records are synthetic, produced by this repository's generator from a fixed seed. No personal, confidential or third-party datasets were accessed, downloaded or redistributed.",
+  "sources": [
+    {
+      "name": "Holiday calendar (fairshift/master.py: HOLIDAYS)",
+      "type": "synthetic reference data",
+      "basis": "General public knowledge of Indian national/regional holiday patterns, used for schema realism only. Lunar-festival dates are marked APPROXIMATE and must be confirmed against the official notification before any real use.",
+      "license": "Facts; authored by the project author.",
+      "retrieved": null,
+      "transformations": "none"
+    },
+    {
+      "name": "Given/family name lists (fairshift/master.py)",
+      "type": "synthetic",
+      "basis": "Author-curated lists of common names, combined at random. No real person's record.",
+      "license": "Authored by the project author.",
+      "retrieved": null,
+      "transformations": "random combination; emails use the reserved example.com domain"
+    },
+    {
+      "name": "Skill catalogue, departments, staffing ratios, policies",
+      "type": "synthetic",
+      "basis": "Author-defined to model a multi-site warehouse and support operation.",
+      "license": "Authored by the project author.",
+      "retrieved": null,
+      "transformations": "none"
+    }
+  ],
+  "fields_discarded": []
+}

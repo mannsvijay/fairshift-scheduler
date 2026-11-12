@@ -1,0 +1,187 @@
+{
+  "detector": {
+    "per_issue_type": {
+      "DOUBLE_BOOKED": {
+        "ground_truth": 3,
+        "detected": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "LEAVE_OVERLAPS_ASSIGNMENT": {
+        "ground_truth": 3,
+        "detected": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "REQUIRED_SKILL_ABSENT": {
+        "ground_truth": 3,
+        "detected": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "OVERTIME_CAP_EXCEEDED": {
+        "ground_truth": 3,
+        "detected": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      },
+      "SWAP_APPLIED_WITHOUT_APPROVAL": {
+        "ground_truth": 3,
+        "detected": 3,
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_positive_ids": [],
+        "false_negative_ids": []
+      }
+    },
+    "overall": {
+      "true_positive": 15,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "guard_rule_findings": {
+      "REST_RULE_VIOLATION": 0,
+      "CONSECUTIVE_DAYS_EXCEEDED": 0,
+      "NIGHT_INELIGIBLE_ASSIGNED": 0,
+      "ASSIGNED_OUTSIDE_EMPLOYMENT": 0,
+      "MANAGER_ON_ROTA": 0
+    }
+  },
+  "kpis": {
+    "coverage_requirements_evaluated": 1728,
+    "coverage_met_rate": {
+      "at_publication": 0.9988,
+      "final_schedule": 0.9902,
+      "attended": 0.9711
+    },
+    "coverage_gaps_by_stage": {
+      "ATTENDANCE": 33,
+      "PLANNING": 2,
+      "POST_PUBLICATION": 15
+    },
+    "planning_gaps_recovered_by_topup": 0,
+    "assignments_by_source": {
+      "MANUAL": 20,
+      "PLANNED": 1672,
+      "REPLACEMENT": 31,
+      "SWAP": 54
+    },
+    "assignments_by_status": {
+      "ACTIVE": 1672,
+      "RELEASED": 39,
+      "SUPERSEDED": 66
+    },
+    "cross_team_cover_assignments": 3,
+    "scheduled_hours_total": 13376.0,
+    "overtime_scheduled_hours_total": 232.0,
+    "overtime_actual_hours_total": 323.2,
+    "employee_weeks_with_scheduled_overtime": 26,
+    "employee_weeks_over_cap": 3,
+    "attendance_outcomes": {
+      "EARLY_DEPARTURE": 19,
+      "LATE": 72,
+      "MISSING_CLOCK_OUT": 9,
+      "NO_SHOW": 24,
+      "ON_TIME": 1548
+    },
+    "leave_outcomes": {
+      "APPROVED": 80,
+      "CANCELLED": 1,
+      "EXPIRED": 5,
+      "REJECTED": 14
+    },
+    "leave_decision_reasons": {
+      "DUPLICATE_OVERLAP": 5,
+      "INSUFFICIENT_BALANCE": 1,
+      "INSUFFICIENT_NOTICE": 1,
+      "MANAGER_NO_RESPONSE": 5,
+      "POLICY_COMPLIANT": 54,
+      "SICK_AUTO_APPROVED": 27,
+      "TEAM_CAPACITY": 7
+    },
+    "leave_by_type": {
+      "ANNUAL": {
+        "requests": 52,
+        "approved": 39,
+        "approval_rate": 0.7692
+      },
+      "SICK": {
+        "requests": 27,
+        "approved": 27,
+        "approval_rate": 1.0
+      },
+      "PERSONAL": {
+        "requests": 16,
+        "approved": 10,
+        "approval_rate": 0.625
+      },
+      "UNPAID": {
+        "requests": 5,
+        "approved": 4,
+        "approval_rate": 0.8
+      }
+    },
+    "swap_outcomes": {
+      "APPLIED": 33,
+      "REJECTED": 24,
+      "REQUESTED": 3,
+      "WITHDRAWN": 2
+    },
+    "swap_decision_reasons": {
+      "ASSIGNMENT_CHANGED": 2,
+      "CONSTRAINTS_SATISFIED": 33,
+      "DOUBLE_BOOKING": 7,
+      "LATE_REQUEST": 8,
+      "ON_LEAVE": 1,
+      "PENDING": 3,
+      "REQUESTER_WITHDREW": 2,
+      "REST_RULE": 5,
+      "SKILL_MISMATCH": 1
+    },
+    "fairness": {
+      "teams": 6,
+      "mean_gini_utilisation": 0.0739,
+      "worst_team_gini_utilisation": 0.0952,
+      "mean_night_shift_std_per_4_weeks": 2.128,
+      "mean_unsocial_shift_std_per_4_weeks": 1.097
+    },
+    "exceptions_by_type": {
+      "DOUBLE_BOOKED": 3,
+      "LEAVE_OVERLAPS_ASSIGNMENT": 3,
+      "OVERTIME_CAP_EXCEEDED": 3,
+      "REQUIRED_SKILL_ABSENT": 3,
+      "SWAP_APPLIED_WITHOUT_APPROVAL": 3
+    }
+  }
+}

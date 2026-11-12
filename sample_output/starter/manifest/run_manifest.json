@@ -1,0 +1,281 @@
+{
+  "generator_command": "python -m fairshift generate --scale starter --out sample_output/starter",
+  "config": {
+    "seed": 20261022,
+    "generator_version": "1.0.0",
+    "scale": {
+      "name": "starter",
+      "employees": 120,
+      "teams": 6,
+      "start_date": "2026-01-01",
+      "days": 28,
+      "leave_requests": 100,
+      "swap_requests": 60,
+      "manual_reassignments": 10,
+      "anomalies_per_type": 3,
+      "end_date": "2026-01-28"
+    },
+    "policy": {
+      "ft_contract_hours": 40.0,
+      "ft_max_hours": 48.0,
+      "pt_contract_hours": 24.0,
+      "pt_max_hours": 32.0,
+      "part_time_share": 0.15,
+      "night_ineligible_share": 0.12,
+      "min_rest_hours": 11.0,
+      "max_consecutive_days": 6,
+      "team_leave_concurrency_ratio": 0.15,
+      "min_leave_notice_days": 3,
+      "max_personal_days": 3.0,
+      "max_unpaid_days": 10.0,
+      "leave_cancel_rate": 0.06,
+      "publication_lead_days": 7,
+      "swap_min_notice_hours": 24.0,
+      "callin_min_notice_hours": 2.0,
+      "topup_probability": 0.6,
+      "swap_withdraw_rate": 0.04,
+      "staffing_ratio": {
+        "WEEKDAY": {
+          "A": 0.22,
+          "B": 0.22,
+          "C": 0.12
+        },
+        "WEEKEND": {
+          "A": 0.17,
+          "B": 0.17,
+          "C": 0.1
+        },
+        "HOLIDAY": {
+          "A": 0.15,
+          "B": 0.15,
+          "C": 0.1
+        }
+      },
+      "min_total_headcount": 2,
+      "core_skill_share": 0.4,
+      "peak_uplift_departments": [
+        "OUTBOUND"
+      ],
+      "peak_uplift_headcount": 1,
+      "no_show_rate": 0.012,
+      "late_rate": 0.04,
+      "stay_late_rate": 0.08,
+      "early_departure_rate": 0.015,
+      "missing_clock_out_rate": 0.006,
+      "peak_uplift_from": "2026-01-19"
+    }
+  },
+  "row_counts": {
+    "team": 6,
+    "skill": 13,
+    "employee": 120,
+    "employee_skill": 223,
+    "shift_template": 3,
+    "holiday_calendar": 11,
+    "shift": 84,
+    "coverage_requirement": 190,
+    "shift_assignment": 1777,
+    "assignment_event": 1882,
+    "leave_request": 100,
+    "leave_request_event": 201,
+    "attendance_event": 3287,
+    "swap_request": 62,
+    "swap_request_event": 154,
+    "derived/attendance_reconciliation": 1672,
+    "derived/weekly_hours": 546,
+    "derived/coverage_status": 1728,
+    "derived/coverage_gaps": 50,
+    "derived/leave_balance": 114,
+    "derived/fairness_by_team": 6,
+    "derived/exceptions": 15,
+    "ground_truth": 15
+  },
+  "files": {
+    "data/csv/assignment_event.csv": {
+      "sha256": "87cfe098bc0b7b9dd5e81fab995be0c1fc92340a25989d468dbea47a13a82868",
+      "bytes": 166115
+    },
+    "data/csv/attendance_event.csv": {
+      "sha256": "f354b761d240cbf27176510f0be92445149f86204fcbd63d218d1eeec155bb69",
+      "bytes": 311235
+    },
+    "data/csv/coverage_requirement.csv": {
+      "sha256": "9b09528b88f0a48b29fc60d040db94c96ebbb46982d2e738a183e6ce0d823ccb",
+      "bytes": 10498
+    },
+    "data/csv/employee.csv": {
+      "sha256": "42e4992613241dc09ebcb9052fe7b81353ea0062e806bf24e83c17e77d7d99e1",
+      "bytes": 15587
+    },
+    "data/csv/employee_skill.csv": {
+      "sha256": "4956e1652dce0a9e2d9a1885435fddad0cd97eb8de23b3cda1bf3cfe2fc6f7e9",
+      "bytes": 11122
+    },
+    "data/csv/holiday_calendar.csv": {
+      "sha256": "2f2911262608e99c78d883503e1104c815b0bbc94f4edf3889139a3ca8af32f5",
+      "bytes": 888
+    },
+    "data/csv/leave_request.csv": {
+      "sha256": "3d521db226dcfe3da9883b7e8595ae7c4b260d538bf7f47f96eab34d7d874aae",
+      "bytes": 14504
+    },
+    "data/csv/leave_request_event.csv": {
+      "sha256": "0b6dc112c0ae2b27c3af872e8fec44d8e11125d200296e2564f7fa3d5613cfda",
+      "bytes": 16196
+    },
+    "data/csv/shift.csv": {
+      "sha256": "0e8b68e7157b915045cec8acad35815200359e539ef130049c6286059837f5e7",
+      "bytes": 9401
+    },
+    "data/csv/shift_assignment.csv": {
+      "sha256": "493f125c29f43391e8a2a5317a484e762c14168b4b5e11c9c6a6cc3edba974db",
+      "bytes": 179241
+    },
+    "data/csv/shift_template.csv": {
+      "sha256": "5cb2cfb7e6b9ae3e3f5c80d32870b5a0b949850f78a7032df6643f9cdc92f4f1",
+      "bytes": 227
+    },
+    "data/csv/skill.csv": {
+      "sha256": "81bc10dd52069f48db09283d8d439c9b2c10556fc1a57df782f9a73d5db41061",
+      "bytes": 825
+    },
+    "data/csv/swap_request.csv": {
+      "sha256": "ecbd8f6054262561e1483b42cbea6597ee6b8d27dc39eda702cf2bb5aa36082c",
+      "bytes": 10623
+    },
+    "data/csv/swap_request_event.csv": {
+      "sha256": "2a07d5ddf308296449c97f7286bee90a4effe1b9a0f3a24f4e4864ccdb4b09e0",
+      "bytes": 13059
+    },
+    "data/csv/team.csv": {
+      "sha256": "472e3207ec1d54f461bc52e61209d029ed79995f4b72a91fa7fab378247a8194",
+      "bytes": 470
+    },
+    "data/json/assignment_event.json": {
+      "sha256": "b9a07ac6fc0e68dadca42fff01190770407636455ee3c1fa81bdb5c07fe2d331",
+      "bytes": 537636
+    },
+    "data/json/attendance_event.json": {
+      "sha256": "6f3f32163f1021e107fa0de05560f6c4257dc30504933a48b42ce824abe2b834",
+      "bytes": 702310
+    },
+    "data/json/coverage_requirement.json": {
+      "sha256": "7095c6f854e6d098312b8d96e76608c935c405f2a08569c19e14b54c434d3d0b",
+      "bytes": 39741
+    },
+    "data/json/employee.json": {
+      "sha256": "6d0585feffb54cd16447d402a15d51271631949bf9ba9a0c00f2f221895b24d7",
+      "bytes": 49695
+    },
+    "data/json/employee_skill.json": {
+      "sha256": "eb47da15077eca46a9d945eddfacd0399167fcf8d9875be240c4fc292c3bcf62",
+      "bytes": 36491
+    },
+    "data/json/holiday_calendar.json": {
+      "sha256": "367eaf92fabca68823b26fb7a62108fa86d6c9b881d1b5ecb388e7aca57ef62d",
+      "bytes": 2201
+    },
+    "data/json/leave_request.json": {
+      "sha256": "1c5d0da0ffb0ab2e993e7efc85dc534a7dbc1039d98b21093ea4c6fdcecd45ba",
+      "bytes": 39002
+    },
+    "data/json/leave_request_event.json": {
+      "sha256": "caf547fd1ef80c4941a375e9851d35866fb244956c78ae14fd1b93147363157f",
+      "bytes": 37901
+    },
+    "data/json/shift.json": {
+      "sha256": "c09d36099b228e0fdce755e998d3c9ed17b74eef4fd42c777cad392a52e157ce",
+      "bytes": 21819
+    },
+    "data/json/shift_assignment.json": {
+      "sha256": "56080b9b2bc3dec9a60cd5f47b26da1ba8f2a2855af4ff97c9ace10cfad539b9",
+      "bytes": 553436
+    },
+    "data/json/shift_template.json": {
+      "sha256": "d772f524ecaaae3f0b2fbb2e315dd9cc33e41015e9cb251030098a660ce978ec",
+      "bytes": 561
+    },
+    "data/json/skill.json": {
+      "sha256": "95d37a9673152637d2bcc7754e39f398da6036fec90e86a2f2215cf74326cfa7",
+      "bytes": 2402
+    },
+    "data/json/swap_request.json": {
+      "sha256": "77eacf4fa97497e01b207b45f5fc129c31979c603d27749ff918cab91ab57cda",
+      "bytes": 27503
+    },
+    "data/json/swap_request_event.json": {
+      "sha256": "8460d54288d7feed482229f936aed0949e1d2f8b5c6276244b17f556d0c8ba75",
+      "bytes": 29289
+    },
+    "data/json/team.json": {
+      "sha256": "0f568f685db927a91c2cbc3763140bc759c02ecbf293cf0d6f7c06193460dc9a",
+      "bytes": 1071
+    },
+    "data/sql/schema.sql": {
+      "sha256": "539441c3ad390800f30fb77325d209a3ee4d0c2230320fa170cc7a2fd62e379a",
+      "bytes": 13423
+    },
+    "data/sql/seed.sql": {
+      "sha256": "0d3228f7f86d21ccbb9fb54f39f024b17c944febdd00b9e0a477bbbd86cf938e",
+      "bytes": 1001085
+    },
+    "derived/attendance_reconciliation.csv": {
+      "sha256": "b9228a025ba45445e2f4598afa86ebbabeb829e4cb610a2a6d858dbb430e8f2e",
+      "bytes": 295218
+    },
+    "derived/coverage_gaps.csv": {
+      "sha256": "38cb6cdd026d4025c9e1e2eb21492f23edd98fe1271a880a15ab2e62ad48492b",
+      "bytes": 8486
+    },
+    "derived/coverage_status.csv": {
+      "sha256": "38a2043baf3dea83d11c519a59444d5905a63e88b1cfae658bad39b734cfcaf3",
+      "bytes": 128720
+    },
+    "derived/exceptions.csv": {
+      "sha256": "0eebf1828324bc4cd97ffd738df8db40730250336a249ba33edb2ef396554d82",
+      "bytes": 4135
+    },
+    "derived/fairness_by_team.csv": {
+      "sha256": "67370690be8b1f9b504c459297b4ec95958d80034c1ea803862b833ef6778817",
+      "bytes": 530
+    },
+    "derived/leave_balance.csv": {
+      "sha256": "9af212b1a6a04e22930ef242a4b74ea72380cbbaaaf78b6db10f4a0270c8d1f6",
+      "bytes": 5443
+    },
+    "derived/weekly_hours.csv": {
+      "sha256": "2a00c606ecbd6607ce90e189800a0d0ae7c09827575978acdb7ebd0b7164c062",
+      "bytes": 41618
+    },
+    "ground_truth/ground_truth.csv": {
+      "sha256": "e892b2bd9c210b6aca6d7c59f9f7541b7af9f035481390049e32e3d3e8bb6e29",
+      "bytes": 4183
+    },
+    "ground_truth/ground_truth.json": {
+      "sha256": "f66d2b01dae267618049d723926e919383a20ae09abd5ac51c3447949e39afa7",
+      "bytes": 7327
+    },
+    "reports/evaluation.json": {
+      "sha256": "9972d1eff3da6a04b0aa6b772402ee140c61bbab0567f113f67821ea5317ec43",
+      "bytes": 4615
+    },
+    "reports/report.html": {
+      "sha256": "9f3cb41b0700eb91aad8834ccb8ddfe87a634efc8612c20bdc789a8ec2e87dbe",
+      "bytes": 53528
+    },
+    "reports/summary.md": {
+      "sha256": "22dce693ef52dc6b40cb75ca065a201029df27ae2ecec8eba632dbf7e9355157",
+      "bytes": 2703
+    },
+    "reports/validation_summary.json": {
+      "sha256": "37c266422bcd484177992a352478dbb07efe541e801e10fc1d10b169598243dc",
+      "bytes": 33679
+    },
+    "reports/validation_summary.md": {
+      "sha256": "76ccd6c6c1ad3754fa19574742086d884482052fd577e0f44679da7fe306fcd8",
+      "bytes": 12963
+    }
+  },
+  "validation_overall": "PASS",
+  "environment_note": "Checksums depend only on seed + config; generation uses no wall-clock time."
+}

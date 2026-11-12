@@ -1,0 +1,8 @@
+[
+{"team_id": "TEAM-001", "team_name": "Inbound Jaipur 001", "department": "INBOUND", "region_code": "IN-RJ", "manager_employee_id": "EMP-000023", "created_date": "2019-01-10"},
+{"team_id": "TEAM-002", "team_name": "Inbound Jaipur 002", "department": "INBOUND", "region_code": "IN-RJ", "manager_employee_id": "EMP-000013", "created_date": "2015-05-29"},
+{"team_id": "TEAM-003", "team_name": "Outbound Jaipur 003", "department": "OUTBOUND", "region_code": "IN-RJ", "manager_employee_id": "EMP-000009", "created_date": "2016-12-22"},
+{"team_id": "TEAM-004", "team_name": "Outbound Jaipur 004", "department": "OUTBOUND", "region_code": "IN-RJ", "manager_employee_id": "EMP-000032", "created_date": "2017-10-16"},
+{"team_id": "TEAM-005", "team_name": "Inventory Jaipur 005", "department": "INVENTORY", "region_code": "IN-RJ", "manager_employee_id": "EMP-000018", "created_date": "2021-03-03"},
+{"team_id": "TEAM-006", "team_name": "Inventory Jaipur 006", "department": "INVENTORY", "region_code": "IN-RJ", "manager_employee_id": "EMP-000001", "created_date": "2021-10-15"}
+]

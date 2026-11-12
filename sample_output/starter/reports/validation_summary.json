@@ -1,0 +1,1301 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "category": "parsing",
+      "check": "CSV headers match schema and every value parses as its declared type",
+      "status": "PASS",
+      "records_checked": 8113,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "team.team_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "skill.skill_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "employee.employee_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "employee_skill.employee_skill_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "shift_template.template_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "holiday_calendar.holiday_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "shift.shift_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "coverage_requirement.coverage_requirement_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "shift_assignment.assignment_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "assignment_event.assignment_event_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "leave_request.leave_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "leave_request_event.leave_event_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "attendance_event.attendance_event_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "swap_request.swap_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "primary_keys",
+      "check": "swap_request_event.swap_event_id unique and non-null",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "team: required columns populated",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "team: enum values allowed",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "team: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "team: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "team: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "skill: required columns populated",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "skill: enum values allowed",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "skill: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "skill: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "skill: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 13,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "employee: required columns populated",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "employee: enum values allowed",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "employee: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "employee: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "employee: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "employee_skill: required columns populated",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "employee_skill: enum values allowed",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "employee_skill: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "employee_skill: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "employee_skill: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "shift_template: required columns populated",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "shift_template: enum values allowed",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "shift_template: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "shift_template: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "shift_template: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 3,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "holiday_calendar: required columns populated",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "holiday_calendar: enum values allowed",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "holiday_calendar: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "holiday_calendar: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "holiday_calendar: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 11,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "shift: required columns populated",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "shift: enum values allowed",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "shift: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "shift: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "shift: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "coverage_requirement: required columns populated",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "coverage_requirement: enum values allowed",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "coverage_requirement: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "coverage_requirement: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "coverage_requirement: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "shift_assignment: required columns populated",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "shift_assignment: enum values allowed",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "shift_assignment: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "shift_assignment: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "shift_assignment: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "assignment_event: required columns populated",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "assignment_event: enum values allowed",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "assignment_event: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "assignment_event: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "assignment_event: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "leave_request: required columns populated",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "leave_request: enum values allowed",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "leave_request: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "leave_request: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "leave_request: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "leave_request_event: required columns populated",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "leave_request_event: enum values allowed",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "leave_request_event: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "leave_request_event: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "leave_request_event: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "attendance_event: required columns populated",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "attendance_event: enum values allowed",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "attendance_event: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "attendance_event: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "attendance_event: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "swap_request: required columns populated",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "swap_request: enum values allowed",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "swap_request: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "swap_request: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "swap_request: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "required_fields",
+      "check": "swap_request_event: required columns populated",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "allowed_values",
+      "check": "swap_request_event: enum values allowed",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "formats",
+      "check": "swap_request_event: ID/code formats match conventions",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ranges",
+      "check": "swap_request_event: numeric values within declared ranges",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "uniqueness",
+      "check": "swap_request_event: unique columns and composite keys",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "team.manager_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 6,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "employee.team_id -> team.team_id",
+      "status": "PASS",
+      "records_checked": 120,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "employee_skill.employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "employee_skill.skill_id -> skill.skill_id",
+      "status": "PASS",
+      "records_checked": 223,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift.template_id -> shift_template.template_id",
+      "status": "PASS",
+      "records_checked": 84,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "coverage_requirement.team_id -> team.team_id",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "coverage_requirement.template_id -> shift_template.template_id",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "coverage_requirement.skill_id -> skill.skill_id",
+      "status": "PASS",
+      "records_checked": 190,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.shift_id -> shift.shift_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.team_id -> team.team_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.slot_skill_id -> skill.skill_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.created_by_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.swap_id -> swap_request.swap_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "shift_assignment.replaces_assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "assignment_event.assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "assignment_event.actor_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "assignment_event.related_leave_id -> leave_request.leave_id",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "assignment_event.related_swap_id -> swap_request.swap_id",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "assignment_event.related_assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 1882,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "leave_request.employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "leave_request.decided_by_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "leave_request_event.leave_id -> leave_request.leave_id",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "leave_request_event.actor_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 201,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "attendance_event.employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "attendance_event.assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.team_id -> team.team_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.requester_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.requester_assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.target_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.target_assignment_id -> shift_assignment.assignment_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request.decided_by_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request_event.swap_id -> swap_request.swap_id",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "foreign_keys",
+      "check": "swap_request_event.actor_employee_id -> employee.employee_id",
+      "status": "PASS",
+      "records_checked": 154,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "conditional_rules",
+      "check": "Conditional required fields and role/ownership rules (see data dictionary)",
+      "status": "PASS",
+      "records_checked": 1989,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "date_ordering",
+      "check": "start<=end, submitted<=decided<=cancelled/applied, published<start<end, created before shift",
+      "status": "PASS",
+      "records_checked": 2556,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "effective_dating",
+      "check": "Skill holdings and coverage requirements have non-overlapping effective periods",
+      "status": "PASS",
+      "records_checked": 394,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "arithmetic",
+      "check": "Shift IDs, times, durations and ISO weeks reconcile with templates",
+      "status": "PASS",
+      "records_checked": 87,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "arithmetic",
+      "check": "leave_request.days_requested = calendar days minus applicable holidays",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "arithmetic",
+      "check": "Leave balance: closing = opening - approved annual days, and never negative",
+      "status": "PASS",
+      "records_checked": 114,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "arithmetic",
+      "check": "Weekly hours sum to all active assignment hours; overtime = max(0, scheduled - contracted)",
+      "status": "PASS",
+      "records_checked": 546,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "arithmetic",
+      "check": "Coverage gaps = max(0, required - staffed) at each stage",
+      "status": "PASS",
+      "records_checked": 1728,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "lifecycle",
+      "check": "shift_assignment: event history follows the state machine and matches current status",
+      "status": "PASS",
+      "records_checked": 1777,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "lifecycle",
+      "check": "leave_request: event history follows the state machine and matches current status",
+      "status": "PASS",
+      "records_checked": 100,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "lifecycle",
+      "check": "swap_request: event history follows the state machine and matches current status",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "lifecycle",
+      "check": "Row timestamps (created/submitted/requested/applied/cancelled) equal their event timestamps",
+      "status": "PASS",
+      "records_checked": 1939,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "duplicates",
+      "check": "No duplicate business records (same content under different IDs)",
+      "status": "PASS",
+      "records_checked": 5226,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "acceptance",
+      "check": "AC1 Coverage requirements are met or the gap is reported (every shortfall is in coverage_gaps)",
+      "status": "PASS",
+      "records_checked": 1728,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "acceptance",
+      "check": "AC2 Working-hour constraints hold: every rest/consecutive/overtime/booking violation is a labelled anomaly",
+      "status": "PASS",
+      "records_checked": 1672,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "acceptance",
+      "check": "AC3 Attendance reconciles with schedules (events only on ACTIVE assignments of the same employee, one IN, at most one OUT, OUT after IN)",
+      "status": "PASS",
+      "records_checked": 3287,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "acceptance",
+      "check": "AC4 Swap history preserved: originals kept as SUPERSEDED, new rows link back, applied swaps produced the right number of assignments",
+      "status": "PASS",
+      "records_checked": 62,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "ground_truth",
+      "check": "Ground truth is separate (no label columns in inputs) and every label points at a real record",
+      "status": "PASS",
+      "records_checked": 15,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    },
+    {
+      "category": "sql",
+      "check": "schema.sql + seed.sql load into SQLite with FOREIGN KEYS ON; row counts match CSV",
+      "status": "PASS",
+      "records_checked": 8113,
+      "failures": 0,
+      "examples": [],
+      "detail": ""
+    }
+  ]
+}

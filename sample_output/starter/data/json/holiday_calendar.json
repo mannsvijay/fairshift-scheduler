@@ -1,0 +1,13 @@
+[
+{"holiday_id": "HOL-2026-001", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-01-14", "holiday_name": "Makar Sankranti", "scope": "REGIONAL", "region_code": "IN-RJ", "date_precision": "EXACT"},
+{"holiday_id": "HOL-2026-002", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-01-14", "holiday_name": "Makar Sankranti", "scope": "REGIONAL", "region_code": "IN-KA", "date_precision": "EXACT"},
+{"holiday_id": "HOL-2026-003", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-01-26", "holiday_name": "Republic Day", "scope": "NATIONAL", "region_code": null, "date_precision": "EXACT"},
+{"holiday_id": "HOL-2026-004", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-02-15", "holiday_name": "Maha Shivaratri", "scope": "REGIONAL", "region_code": "IN-KA", "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-005", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-02-15", "holiday_name": "Maha Shivaratri", "scope": "REGIONAL", "region_code": "IN-TG", "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-006", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-02-19", "holiday_name": "Chhatrapati Shivaji Maharaj Jayanti", "scope": "REGIONAL", "region_code": "IN-MH", "date_precision": "EXACT"},
+{"holiday_id": "HOL-2026-007", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-03-04", "holiday_name": "Holi", "scope": "NATIONAL", "region_code": null, "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-008", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-03-19", "holiday_name": "Gudi Padwa", "scope": "REGIONAL", "region_code": "IN-MH", "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-009", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-03-19", "holiday_name": "Ugadi", "scope": "REGIONAL", "region_code": "IN-KA", "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-010", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-03-19", "holiday_name": "Ugadi", "scope": "REGIONAL", "region_code": "IN-TG", "date_precision": "APPROXIMATE"},
+{"holiday_id": "HOL-2026-011", "calendar_id": "CAL-IN-2026", "holiday_date": "2026-03-20", "holiday_name": "Id-ul-Fitr", "scope": "NATIONAL", "region_code": null, "date_precision": "APPROXIMATE"}
+]

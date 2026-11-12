@@ -1,0 +1,15 @@
+[
+{"skill_id": "SKL-001", "skill_code": "FIRST_AID", "skill_name": "First Aid Responder", "category": "SAFETY", "requires_certification": true, "certification_validity_days": 365},
+{"skill_id": "SKL-002", "skill_code": "FORKLIFT", "skill_name": "Forklift Operation", "category": "OPERATIONAL", "requires_certification": true, "certification_validity_days": 730},
+{"skill_id": "SKL-003", "skill_code": "RECEIVING", "skill_name": "Receiving & Put-away", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-004", "skill_code": "HAZMAT", "skill_name": "Hazardous Goods Handling", "category": "SAFETY", "requires_certification": true, "certification_validity_days": 365},
+{"skill_id": "SKL-005", "skill_code": "PICK_PACK", "skill_name": "Picking & Packing", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-006", "skill_code": "DISPATCH", "skill_name": "Dispatch Coordination", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-007", "skill_code": "CYCLE_COUNT", "skill_name": "Cycle Counting", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-008", "skill_code": "WMS", "skill_name": "Warehouse Management System", "category": "SYSTEMS", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-009", "skill_code": "QUALITY", "skill_name": "Quality Inspection", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-010", "skill_code": "RETURNS_GRADING", "skill_name": "Returns Grading", "category": "OPERATIONAL", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-011", "skill_code": "ESCALATIONS", "skill_name": "Customer Escalations", "category": "CUSTOMER", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-012", "skill_code": "MULTILINGUAL", "skill_name": "Multilingual Support", "category": "CUSTOMER", "requires_certification": false, "certification_validity_days": null},
+{"skill_id": "SKL-013", "skill_code": "TECH_TIER2", "skill_name": "Tier-2 Technical Support", "category": "SYSTEMS", "requires_certification": false, "certification_validity_days": null}
+]

@@ -1,0 +1,5 @@
+[
+{"template_id": "TPL-A", "template_code": "A", "template_name": "Early", "start_time": "06:00", "end_time": "14:00", "duration_hours": 8.0, "crosses_midnight": false, "is_night": false},
+{"template_id": "TPL-B", "template_code": "B", "template_name": "Late", "start_time": "14:00", "end_time": "22:00", "duration_hours": 8.0, "crosses_midnight": false, "is_night": false},
+{"template_id": "TPL-C", "template_code": "C", "template_name": "Night", "start_time": "22:00", "end_time": "06:00", "duration_hours": 8.0, "crosses_midnight": true, "is_night": true}
+]
