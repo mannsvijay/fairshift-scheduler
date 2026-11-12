@@ -114,7 +114,6 @@ fairshift/            package (standard library only)
 tests/                27 unit, end-to-end and negative tests
 docs/                 data dictionary, ERD (generated), design, assumptions, verification
 sample_output/starter committed example outputs (data, derived, ground truth, reports, manifest)
-ai/                   prompt history and AI-usage disclosure
 ```
 
 Each output folder contains `data/` (inputs: csv, json, sql), `ground_truth/` (labels — kept apart),
@@ -126,8 +125,3 @@ Each output folder contains `data/` (inputs: csv, json, sql), `ground_truth/` (l
 Greedy, fairness-ranked scheduling rather than a global optimiser; a simplified single-timezone, fixed-shift model;
 synthetic data only. See [`docs/ASSUMPTIONS_AND_LIMITATIONS.md`](docs/ASSUMPTIONS_AND_LIMITATIONS.md) for the full list
 and next steps.
-
-## AI usage
-
-This project was built with substantial help from an AI assistant. Prompts and an account of what was reviewed and
-validated by hand are in [`ai/`](ai/).
