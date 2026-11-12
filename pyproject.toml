@@ -1,0 +1,17 @@
+[project]
+name = "fairshift"
+version = "1.0.0"
+description = "Fair, feasible shift scheduling: synthetic workforce data, rule-based decisions, labelled exceptions and validation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []  # standard library only
+
+[project.scripts]
+fairshift = "fairshift.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["fairshift"]
